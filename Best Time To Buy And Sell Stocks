@@ -1,5 +1,5 @@
-public class buyandsellstock {
-    public static int buy(int prices[]){
+public class Java {
+    public static int buyandsellstock(int prices[]){
         int buyprices = Integer.MAX_VALUE;
         int n = prices.length;
         int max_prices = 0;
@@ -16,7 +16,7 @@ public class buyandsellstock {
       }
       public static void main(String[] args) {
         int prices[] =  {7,1,5,3,6,4};
-        System.out.println(buy(prices));
+        System.out.println(buyandsellstock(prices));
     
       }
-      }
+   }
